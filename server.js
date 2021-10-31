@@ -11,7 +11,7 @@ const stamper = require('./middleware/stamper');
  * Proof of life route
  */
 app.get('/', (req, res) => {
-  res.send(' All is good 🥳');
+  res.status(200).send('All is good 🥳');
 });
 
 /**
